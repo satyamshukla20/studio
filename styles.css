@@ -1,0 +1,522 @@
+body{
+  margin:0;
+  padding:0;
+  font-size:16px;
+  height: 100%;
+  /* width:100vw; */
+  
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.default-section{
+  background-image: url(desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+  padding-bottom: 0em;
+  background-position:top center;
+display: block;
+
+}
+.black-section{
+  display: none;
+}
+header{
+  width:75%;
+  max-width: 1700px;
+  margin:0 auto;
+
+
+}
+h1{
+  margin:0;
+
+}
+.logo-heading{
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  font-size: 2rem;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+padding: 2em 0;
+}
+ul{
+  text-decoration: none;
+  display: flex;
+  list-style: none;
+  margin-left: 0;
+  padding:0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+li{
+  margin-left: 2em;
+  font-family: 'Alata', sans-serif;
+  color:white;
+}
+.logo{
+  margin-top:1em;
+}
+.header-content span{
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  font-size: 3rem;
+  font-weight: 300;
+  /* align-self: flex-start; */
+}
+.header-content
+{
+  border: 1px solid white;
+  padding:2em ;
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width:22.5em;
+}
+.head-content-container{
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* middle-section */
+.middle-section{
+  width:75%;
+  max-width: 1700px;
+  margin:0 auto;
+}
+.image-guy-section{
+  margin:5em 0;
+  display: flex;
+
+/* position: absolute; */
+
+}
+.guy{
+  flex-shrink: 1;
+}
+.text-image{
+  align-self: flex-end;
+  padding:4em 0 0 4em;
+  z-index: 1000;
+  position: relative;
+  right: 11em;
+  /* height: 13em; */
+  background-color: white;
+  /* width:20rem; */
+  flex-shrink: 1;
+  /* margin-right: : 2em; */
+
+}
+.span-flex{
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 2em;
+}
+.text-image span {
+  font-family: 'Josefin Sans', sans-serif;
+  color:black;
+  text-transform: uppercase;
+  font-weight: 300;
+font-size: 2rem;
+  /* font-size: 1.5rem; */
+}
+.text-image p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: hsl(0, 0%, 55%);
+font-size: 1.2rem;
+  font-weight: 400;
+}
+.hamburger{
+display:none;
+}
+/* middle section 2 */
+.title-creation{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.title h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color:black;
+  font-weight: 300;
+
+
+}
+.title-creation button{
+  background-color: white;
+  padding: 0.5em 2em;
+  border:1px solid black ;
+font-family: 'Alata', sans-serif;
+  color:black;
+  font-weight: 400;
+}
+
+
+/* grid-container */
+.grid-container{
+  display: grid;
+  /* gap: 2em; */
+  grid-template-columns:  repeat(auto-fit,minmax(15.7rem,1fr));
+  grid-template-rows: 1fr 1fr;
+ margin: 3em 0;
+ justify-content: center;
+}
+ /* @media (max-width:1100) {
+   .grid-container{
+    grid-template-columns:  repeat(3,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+   } */
+   
+ 
+.grid-container .fl{
+  height:450px;
+  position: relative;
+  background-size: contain;
+  display: flex;
+   flex-direction: column;
+
+}
+.grid-container .i1{
+   background-image: url(desktop/image-deep-earth.jpg);
+   background-repeat: no-repeat;
+
+
+}
+.grid-container .i2{
+  background-image: url(desktop/image-night-arcade.jpg);
+  background-repeat: no-repeat;
+}
+.grid-container .i3{
+  background-image: url(desktop/image-soccer-team.jpg);
+  background-repeat: no-repeat;
+}
+.grid-container .i4{
+  background-image: url(desktop/image-grid.jpg);
+  background-repeat: no-repeat;
+}
+.grid-container .i5{
+  background-image: url(desktop/image-from-above.jpg);
+  background-repeat: no-repeat;
+}
+.grid-container .i6{
+  background-image: url(desktop/image-pocket-borealis.jpg);
+  background-repeat: no-repeat;
+}
+.grid-container .i7{
+  background-image: url(desktop/image-curiosity.jpg);
+  background-repeat: no-repeat;
+}
+.grid-container .i8{
+  background-image: url(desktop/image-fisheye.jpg);
+  background-repeat: no-repeat;
+}
+ .i1con{
+
+ position: absolute;
+   top: 23em;
+   left: 1em;
+}
+.grid-container h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+
+}
+
+.grid-container-ii{
+  display: none;
+}
+
+.see-button{
+  display: none;
+}
+
+
+
+
+
+/* footer */
+.footer-container
+{
+  width:100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+footer{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+footer h1{
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+
+  font-weight: 400;
+}
+footer li{
+  margin-left: 0;
+  margin-right: 1em;
+  font-weight: 300;
+}
+
+footer p{
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+.biggest{
+  display: flex;
+  justify-content: space-between;
+  width:75%;
+  max-width: 1700px;
+  margin:0 auto;
+}
+.biggest-i{
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+}
+.icons{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2em;
+}
+.icons img{
+  margin-left: 1em;
+}
+.biggest-ii{
+  margin: 1em 0;
+}
+
+
+
+
+@media (max-width:800px) {
+  section{
+    background-image: url(mobile/image-hero.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  .block{
+    display: none;
+  }
+  .visible{
+    display:flex;
+  }
+  
+  .navbar ul{
+    display: none;
+  }
+  .container{
+    height:40em;
+    width:75%;
+  }
+  .header-content{
+padding:1em ;
+  }
+  .hamburger{
+  display:flex;
+  align-self: center;
+
+  }
+  .hamburger button{
+   background-color: transparent;
+   border: 0;
+   padding: 0;
+  }
+  .hamburger i{
+
+    color: white;
+  }
+
+  .navbar{
+    display: flex;
+  }
+
+
+  .image-guy-section{
+    flex-direction: column;
+  }
+  .text-image{
+    position: relative;
+    right: 0;
+    align-items: center;
+    padding:4em 1em 0 1em;
+  }
+  .span-flex{
+      align-items: center;
+  }
+  .biggest{
+    flex-direction: column;
+    align-items: center;
+  }
+  .biggest-i{
+    align-items: center;
+  }
+  .footer-list ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .footer-list li{
+    margin-bottom: 1em;
+  }
+  .icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+  .icons img{
+    margin-left: 0;
+    margin-right: 1em;
+  }
+.biggest-ii{
+  margin-bottom: 3em;
+}
+.title-creation{
+  justify-content: center;
+}
+
+.title-creation button{
+  
+  display: none;
+}
+
+.grid-container{
+ 
+ display: none;
+
+}
+.see-button{
+
+  display: flex;
+  justify-content: center;
+margin:2em 0;
+}
+.see-button button{
+  background-color: white;
+  padding: 0.5em 2em;
+  border:1px solid black ;
+  font-family: 'Alata', sans-serif;
+  color:black;
+  font-weight: 400;
+}
+.grid-container-ii{
+  display: grid;
+  gap: 2em;
+  grid-template-columns:  1fr;
+  grid-template-rows: repeat(8,1fr);
+ margin: 3em 2em;
+ justify-content: center;
+}
+.grid-container-ii div{
+  height: 250px;
+
+}
+
+.i2con h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+  .grid-container-ii .ii1{
+    background-image: url(mobile/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+
+
+ }
+ .grid-container-ii .ii2{
+   background-image: url(mobile/image-night-arcade.jpg);
+   background-repeat: no-repeat;
+ }
+ .grid-container-ii .ii3{
+   background-image: url(mobile/image-soccer-team.jpg);
+   background-repeat: no-repeat;
+ }
+ .grid-container-ii .ii4{
+   background-image: url(mobile/image-grid.jpg);
+   background-repeat: no-repeat;
+ }
+ .grid-container-ii .ii5{
+   background-image: url(mobile/image-from-above.jpg);
+   background-repeat: no-repeat;
+ }
+ .grid-container-ii .ii6{
+   background-image: url(mobile/image-pocket-borealis.jpg);
+   background-repeat: no-repeat;
+ }
+ .grid-container-ii .ii7{
+   background-image: url(mobile/image-curiosity.jpg);
+   background-repeat: no-repeat;
+ }
+ .grid-container-ii .ii8{
+   background-image: url(mobile/image-fisheye.jpg);
+   background-repeat: no-repeat;
+ }
+ .grid-container-ii div{
+
+  position: relative;
+}
+.i2con{
+  position: absolute;
+  top: 10em;
+  /* left: 1em; */
+}
+.black-section{
+  
+  flex-direction: column;
+  background-image: none;
+  background-color: black;
+}
+.black-h1 h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 0 1em 1em;
+}
+.black-section-width{
+  width: 75%;
+  margin: 0 auto;
+
+}
+.black-heading{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 1em 2em 1em;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.black-h1{
+  margin: 3em 0 5em 0;
+  font-size: 1.5em;
+}
+
+.black-heading h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+
+}
+.close-btn{
+  background-color: transparent;
+  color: white;
+  border: 0;
+
+}
+
+}
